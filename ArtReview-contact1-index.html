@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<head>
+    
+<link href="/normalize.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>Contact Page</title> 
+    <html>       
+<style>
+ html, body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+  padding: 10px;
+  position: absolute;
+  top: 5px;
+  left:100px;  
+}
+li {
+  display: inline;
+  padding: 32px; 
+    }    
+img {
+  width: 50%;
+  height: 520px;
+  right: 10px;    
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 10px 0 10px;
+  float: right;        
+}
+    div {
+        padding: 70px 30px 0 30px;
+    }    
+   a {
+    font-family: Poppins;
+    font-weight: normal;
+    font-style: normal;
+    color: gray;   
+}  
+a:link {
+  text-decoration: none;
+}    
+   h1 {
+    font-family: Poppins;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;   
+    position: relative;
+    color: gray;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px; 
+    padding: 10px 50px 0 0; 
+    text-align: center;   
+}   
+h3 {
+    font-family: Poppins;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;   
+    position: relative;
+    color: gray;
+    padding: 40px 0 0 25px;  
+    text-align: center
+}     
+ .topnav {
+     float: right;
+     margin-top: 0;
+     padding-top: 0;
+    } 
+    input[type="text"] {
+        background: transparent;
+        border-color: lightgray;
+        font-family: Poppins;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;  
+    }   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 125px 0 0;
+  padding: 0;
+  position: relative;
+  float: right;  
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+font-family: Poppins;
+}
+
+#contact {
+  background: #fff;
+  padding: 25px;
+  margin: 50px 0;
+  border-color: #000;
+  border: 1px;    
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #000;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: gray;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+  
+</style>
+    
+</head>
+
+<body>    
+<ul>
+      <li><a href="file:///C:/Users/ME/Desktop/art-review%20page%201/ArtReview-index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">My Blog</a></li>
+      <li><a href="#">Museums & Galleries</a></li>
+      <li><a href="#">Artist Reviews</a></li>
+      <li><a href="#">Events</a></li>
+    <div class="topnav">
+        <li><input type="text" placeholder=" Search site"></li>
+    </ul>     
+<div>
+    <img src="C:/Users/ME/Pictures/ArtGallery.jpg" alt="rightpic"> 
+    
+    </div>
+
+<header>     
+<h1>Contact</h1>
+<h3>If you'd like to get in touch about anything,<br /> please fill out the contact form below.</h3>    
+</header>
+
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>    
+</body>
+    
+</html>
